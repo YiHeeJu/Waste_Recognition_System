@@ -1,0 +1,18 @@
+.camera-container {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.camera {
+    border: 2px solid white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.audio-output {
+    font-size: 1.2em;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+}

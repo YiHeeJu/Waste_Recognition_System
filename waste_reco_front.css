@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('background_img.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 500px 700px 20px; /* 상단 패딩을 크게 조정 */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    margin-bottom: 100px; /* 제목 아래 공간 */
+}
+
+.header h1 {
+    font-size: 4em;
+    margin-bottom: 20px; /* 제목과 설명 사이의 간격 */
+    margin-top: 0;
+}
+
+.header p {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.more-btn {
+    align-self: center;
+    background-color: skyblue;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 500px; /* 버튼 아래 공간 */
+}
+
+.more-btn:hover {
+    background-color: deepskyblue;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 40px 20px 30px; /* 모바일에서의 상단 패딩 조정 */
+    }
+
+    .header h1 {
+        font-size: 3em;
+    }
+
+    .header p {
+        font-size: 1.2em;
+    }
+
+    .more-btn {
+        padding: 10px 20px;
+        font-size: 1.2em;
+    }
+}
